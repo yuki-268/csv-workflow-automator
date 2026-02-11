@@ -7,7 +7,9 @@ CSVファイルをGUI上で簡単に加工・処理できるPythonアプリで�
 
 ## スクリーンショット
 
+メインウィンドウ
 ![アプリ画面: csv読込](docs/screenshot1.png)
+実行例
 ![アプリ画面: 実行例](docs/screenshot2.png)
 
 ---
