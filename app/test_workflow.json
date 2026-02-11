@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "type": "drop_column",
+            "columns": [
+                "給与"
+            ]
+        },
+        {
+            "type": "filter",
+            "column": "部署",
+            "operator": "==",
+            "value": "営業"
+        },
+        {
+            "type": "sort",
+            "column": "年齢",
+            "ascending": true
+        },
+        {
+            "type": "rename",
+            "old_name": "名前",
+            "new_name": "氏名"
+        }
+    ]
+}
